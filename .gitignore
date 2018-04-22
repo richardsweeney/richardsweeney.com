@@ -1,0 +1,6 @@
+*.DS_Store
+content/
+wp/
+.idea/
+local-config.php
+*.log
