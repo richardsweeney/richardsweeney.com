@@ -260,7 +260,7 @@
             "source": {
                 "type": "git",
                 "url": "https://richardsweeney@bitbucket.org/richardsweeney/rest-api-extensions.git",
-                "reference": "c3f77f72f4d29702c56ebd9864d378a6cd6bf664"
+                "reference": "0657353eab6ddab8c59dbaac96a5637780d079ee"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -283,7 +283,7 @@
                 "Rest API",
                 "wordpress"
             ],
-            "time": "2018-05-06T18:39:32+00:00"
+            "time": "2018-05-06T18:47:41+00:00"
         },
         {
             "name": "shipyard/ship-nginx-fastcgi-cache-purge",
