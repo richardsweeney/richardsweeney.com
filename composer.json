@@ -17,6 +17,10 @@
     {
       "type": "git",
       "url": "https://github.com/richardsweeney/nginx-fastcgi-cache-purge.git"
+    },
+    {
+      "type": "git",
+      "url": "https://richardsweeney@bitbucket.org/richardsweeney/rest-api-extensions.git"
     }
   ],
   "config": {
@@ -31,7 +35,8 @@
     "wpackagist-plugin/autodescription": "*",
     "wpackagist-plugin/google-sitemap-generator": "*",
     "shipyard/ship-nginx-fastcgi-cache-purge": "dev-master",
-    "wpackagist-plugin/backwpup": "^3.4"
+    "wpackagist-plugin/backwpup": "^3.4",
+    "richardsweeney/rest-api-extensions": "dev-master"
   },
   "require-dev": {
     "larapack/dd": "1.*",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "abd681b56de4215a2b33146fc19c3e85",
+    "content-hash": "286fff55448a10e0f1c4533fd7da3184",
     "packages": [
         {
             "name": "composer/installers",
@@ -253,6 +253,37 @@
                 "wordpress"
             ],
             "time": "2018-01-29T14:49:29+00:00"
+        },
+        {
+            "name": "richardsweeney/rest-api-extensions",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://richardsweeney@bitbucket.org/richardsweeney/rest-api-extensions.git",
+                "reference": "671ca84435396e73959e37ef38cf9eff43f3be2c"
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=7.0"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Richard Sweeney",
+                    "email": "theorboman@gmail.com",
+                    "homepage": "https://richardsweeney.com"
+                }
+            ],
+            "description": "REST API extensions",
+            "homepage": "https://richardsweeney.com",
+            "keywords": [
+                "Rest API",
+                "wordpress"
+            ],
+            "time": "2018-05-06T08:49:28+00:00"
         },
         {
             "name": "shipyard/ship-nginx-fastcgi-cache-purge",
@@ -632,7 +663,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "shipyard/ship-nginx-fastcgi-cache-purge": 20
+        "shipyard/ship-nginx-fastcgi-cache-purge": 20,
+        "richardsweeney/rest-api-extensions": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
